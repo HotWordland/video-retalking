@@ -59,8 +59,8 @@ conda activate video_retalking
 conda install ffmpeg
 
 # Please follow the instructions from https://pytorch.org/get-started/previous-versions/
-# This installation command only works on CUDA 11.1
-pip install torch==1.9.0+cu111 torchvision==0.10.0+cu111 -f https://download.pytorch.org/whl/torch_stable.html
+# This installation command only works on CUDA 11.1 
+pip install torch==1.11.0+cu102 torchvision==0.12.0+cu102 torchaudio==0.11.0 --extra-index-url https://download.pytorch.org/whl/cu102 //update by wulong in 20240317
 
 pip install -r requirements.txt
 ```
